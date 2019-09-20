@@ -7,20 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723508EB233485AA0040F3E2 /* ZWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 723508E4233485A90040F3E2 /* ZWCollectionViewCell.m */; };
+		723508EC233485AA0040F3E2 /* ZWScorollADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 723508E6233485A90040F3E2 /* ZWScorollADView.m */; };
+		723508ED233485AA0040F3E2 /* home_information_pull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 723508E7233485AA0040F3E2 /* home_information_pull@3x.png */; };
+		723508EE233485AA0040F3E2 /* home_information_pull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 723508E8233485AA0040F3E2 /* home_information_pull@2x.png */; };
+		723508EF233485AA0040F3E2 /* home_information_pull.png in Resources */ = {isa = PBXBuildFile; fileRef = 723508E9233485AA0040F3E2 /* home_information_pull.png */; };
 		726A97BB1E8A017C0099586E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A97BA1E8A017C0099586E /* main.m */; };
 		726A97BE1E8A017C0099586E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A97BD1E8A017C0099586E /* AppDelegate.m */; };
 		726A97C11E8A017C0099586E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A97C01E8A017C0099586E /* ViewController.m */; };
 		726A97C41E8A017C0099586E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726A97C21E8A017C0099586E /* Main.storyboard */; };
 		726A97C61E8A017C0099586E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 726A97C51E8A017C0099586E /* Assets.xcassets */; };
 		726A97C91E8A017C0099586E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 726A97C71E8A017C0099586E /* LaunchScreen.storyboard */; };
-		726A97D81E8A01F00099586E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A97D21E8A01F00099586E /* CollectionViewCell.m */; };
-		726A97D91E8A01F00099586E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726A97D31E8A01F00099586E /* CollectionViewCell.xib */; };
-		726A97DA1E8A01F00099586E /* ScorollADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A97D51E8A01F00099586E /* ScorollADView.m */; };
-		726A97DF1E8A12AD0099586E /* tuanN@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726A97DD1E8A12AD0099586E /* tuanN@2x.png */; };
-		726A97E01E8A12AD0099586E /* tuanN@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726A97DE1E8A12AD0099586E /* tuanN@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		723508E4233485A90040F3E2 /* ZWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewCell.m; sourceTree = "<group>"; };
+		723508E5233485A90040F3E2 /* ZWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewCell.h; sourceTree = "<group>"; };
+		723508E6233485A90040F3E2 /* ZWScorollADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWScorollADView.m; sourceTree = "<group>"; };
+		723508E7233485AA0040F3E2 /* home_information_pull@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_information_pull@3x.png"; sourceTree = "<group>"; };
+		723508E8233485AA0040F3E2 /* home_information_pull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_information_pull@2x.png"; sourceTree = "<group>"; };
+		723508E9233485AA0040F3E2 /* home_information_pull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_information_pull.png; sourceTree = "<group>"; };
+		723508EA233485AA0040F3E2 /* ZWScorollADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWScorollADView.h; sourceTree = "<group>"; };
 		726A97B61E8A017C0099586E /* scorollAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scorollAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		726A97BA1E8A017C0099586E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		726A97BC1E8A017C0099586E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,13 +38,6 @@
 		726A97C51E8A017C0099586E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		726A97C81E8A017C0099586E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		726A97CA1E8A017C0099586E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		726A97D11E8A01F00099586E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		726A97D21E8A01F00099586E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		726A97D31E8A01F00099586E /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		726A97D41E8A01F00099586E /* ScorollADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScorollADView.h; sourceTree = "<group>"; };
-		726A97D51E8A01F00099586E /* ScorollADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScorollADView.m; sourceTree = "<group>"; };
-		726A97DD1E8A12AD0099586E /* tuanN@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tuanN@2x.png"; sourceTree = "<group>"; };
-		726A97DE1E8A12AD0099586E /* tuanN@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tuanN@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +95,13 @@
 		726A97D01E8A01F00099586E /* ScorollAdvertis */ = {
 			isa = PBXGroup;
 			children = (
-				726A97DD1E8A12AD0099586E /* tuanN@2x.png */,
-				726A97DE1E8A12AD0099586E /* tuanN@3x.png */,
-				726A97D11E8A01F00099586E /* CollectionViewCell.h */,
-				726A97D21E8A01F00099586E /* CollectionViewCell.m */,
-				726A97D31E8A01F00099586E /* CollectionViewCell.xib */,
-				726A97D41E8A01F00099586E /* ScorollADView.h */,
-				726A97D51E8A01F00099586E /* ScorollADView.m */,
+				723508E9233485AA0040F3E2 /* home_information_pull.png */,
+				723508E8233485AA0040F3E2 /* home_information_pull@2x.png */,
+				723508E7233485AA0040F3E2 /* home_information_pull@3x.png */,
+				723508E5233485A90040F3E2 /* ZWCollectionViewCell.h */,
+				723508E4233485A90040F3E2 /* ZWCollectionViewCell.m */,
+				723508EA233485AA0040F3E2 /* ZWScorollADView.h */,
+				723508E6233485A90040F3E2 /* ZWScorollADView.m */,
 			);
 			path = ScorollAdvertis;
 			sourceTree = "<group>";
@@ -146,6 +146,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -164,11 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723508ED233485AA0040F3E2 /* home_information_pull@3x.png in Resources */,
+				723508EE233485AA0040F3E2 /* home_information_pull@2x.png in Resources */,
+				723508EF233485AA0040F3E2 /* home_information_pull.png in Resources */,
 				726A97C91E8A017C0099586E /* LaunchScreen.storyboard in Resources */,
-				726A97DF1E8A12AD0099586E /* tuanN@2x.png in Resources */,
-				726A97E01E8A12AD0099586E /* tuanN@3x.png in Resources */,
 				726A97C61E8A017C0099586E /* Assets.xcassets in Resources */,
-				726A97D91E8A01F00099586E /* CollectionViewCell.xib in Resources */,
 				726A97C41E8A017C0099586E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,10 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				726A97C11E8A017C0099586E /* ViewController.m in Sources */,
+				723508EB233485AA0040F3E2 /* ZWCollectionViewCell.m in Sources */,
 				726A97BE1E8A017C0099586E /* AppDelegate.m in Sources */,
-				726A97DA1E8A01F00099586E /* ScorollADView.m in Sources */,
-				726A97D81E8A01F00099586E /* CollectionViewCell.m in Sources */,
 				726A97BB1E8A017C0099586E /* main.m in Sources */,
+				723508EC233485AA0040F3E2 /* ZWScorollADView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +340,7 @@
 				726A97CF1E8A017C0099586E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
